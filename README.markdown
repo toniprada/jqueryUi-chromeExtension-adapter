@@ -17,7 +17,7 @@ Just put it on your CSS folder and link it on your manifest file **after the ori
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "css": [css/smoothness/jquery-ui-1.8.20.css", "css/smoothness/jquery-ui-1.8.20-chrome-extension.css"],
+      "css": ["css/smoothness/jquery-ui-1.8.20.css", "css/smoothness/jquery-ui-1.8.20-chrome-extension.css"],
       ...
     }
   ],
