@@ -7,7 +7,7 @@ The way to fix that is simple: rewrite the paths to link to the extension files,
 
 ## How to use it
 
-Just put it on your CSS folder and link it on your manifest file **after the original JQueryUI CSS file**. Remember, we want to rewrite some of it CSS rules. Example:
+Just put it on your CSS folder and link it on your manifest file **after the original JQueryUI CSS file**. Remember, we want to rewrite some of its CSS rules. Example:
 
 ```json
 {
