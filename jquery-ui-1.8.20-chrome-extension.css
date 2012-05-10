@@ -1,0 +1,74 @@
+/*
+Copyright (c) 2012 Antonio Prada <toniprada@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+*/
+.ui-widget-content {
+	background: #ffffff url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+}
+.ui-widget-header {
+	background: #cccccc url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background: #e6e6e6 url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+	background: #dadada url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background: #ffffff url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {
+	background: #fbf9ee url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x;
+}
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {
+	background: #fef1ec url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x;
+}
+.ui-icon {
+	background-image: url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-icons_222222_256x240.png);
+}
+.ui-widget-content .ui-icon {
+	background-image: url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-icons_222222_256x240.png);
+}
+.ui-widget-header .ui-icon {
+	background-image: url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-icons_222222_256x240.png);
+}
+.ui-state-default .ui-icon {
+	background-image: url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-icons_888888_256x240.png);
+}
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+	background-image: url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-icons_454545_256x240.png);
+}
+.ui-state-active .ui-icon {
+	background-image: url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-icons_454545_256x240.png);
+}
+.ui-state-highlight .ui-icon {
+	background-image: url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-icons_2e83ff_256x240.png);
+}
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {
+	background-image: url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-icons_cd0a0a_256x240.png);
+}
+.ui-widget-overlay {
+	background: #aaaaaa url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+}
+.ui-widget-shadow {
+	background: #aaaaaa url(chrome-extension://__MSG_@@extension_id__/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+}
